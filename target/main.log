@@ -1,0 +1,279 @@
+15:29:37.663 request:
+1 > POST https://api.github.com/user/repos
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic UUF0ZWNodG9vbHM6cWF0ZWNodG9vbHNAdGVzdA==
+1 > Connection: Keep-Alive
+1 > Content-Length: 169
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.github.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"name":"CQqSD","description":"This is your first repository","homepage":"https://qatechtools.com","private":false,"has_issues":true,"has_projects":true,"has_wiki":true}
+
+15:29:39.707 response time in milliseconds: 2038.02
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+1 < Cache-Control: private, max-age=60, s-maxage=60
+1 < Content-Length: 4983
+1 < Content-Security-Policy: default-src 'none'
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 30 May 2020 09:59:39 GMT
+1 < ETag: "dbc790eaf5faa0685a26df211cb5467e"
+1 < Location: https://api.github.com/repos/QAtechtools/CQqSD
+1 < Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+1 < Server: GitHub.com
+1 < Status: 201 Created
+1 < Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+1 < Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding]
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: deny
+1 < X-GitHub-Media-Type: github.v3; format=json
+1 < X-GitHub-Request-Id: 3D13:3006:169027:1D9233:5ED22E8A
+1 < X-RateLimit-Limit: 5000
+1 < X-RateLimit-Remaining: 4998
+1 < X-RateLimit-Reset: 1590836194
+1 < X-XSS-Protection: 1; mode=block
+{"id":268053147,"node_id":"MDEwOlJlcG9zaXRvcnkyNjgwNTMxNDc=","name":"CQqSD","full_name":"QAtechtools/CQqSD","private":false,"owner":{"login":"QAtechtools","id":65459490,"node_id":"MDQ6VXNlcjY1NDU5NDkw","avatar_url":"https://avatars3.githubusercontent.com/u/65459490?v=4","gravatar_id":"","url":"https://api.github.com/users/QAtechtools","html_url":"https://github.com/QAtechtools","followers_url":"https://api.github.com/users/QAtechtools/followers","following_url":"https://api.github.com/users/QAtechtools/following{/other_user}","gists_url":"https://api.github.com/users/QAtechtools/gists{/gist_id}","starred_url":"https://api.github.com/users/QAtechtools/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/QAtechtools/subscriptions","organizations_url":"https://api.github.com/users/QAtechtools/orgs","repos_url":"https://api.github.com/users/QAtechtools/repos","events_url":"https://api.github.com/users/QAtechtools/events{/privacy}","received_events_url":"https://api.github.com/users/QAtechtools/received_events","type":"User","site_admin":false},"html_url":"https://github.com/QAtechtools/CQqSD","description":"This is your first repository","fork":false,"url":"https://api.github.com/repos/QAtechtools/CQqSD","forks_url":"https://api.github.com/repos/QAtechtools/CQqSD/forks","keys_url":"https://api.github.com/repos/QAtechtools/CQqSD/keys{/key_id}","collaborators_url":"https://api.github.com/repos/QAtechtools/CQqSD/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/QAtechtools/CQqSD/teams","hooks_url":"https://api.github.com/repos/QAtechtools/CQqSD/hooks","issue_events_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues/events{/number}","events_url":"https://api.github.com/repos/QAtechtools/CQqSD/events","assignees_url":"https://api.github.com/repos/QAtechtools/CQqSD/assignees{/user}","branches_url":"https://api.github.com/repos/QAtechtools/CQqSD/branches{/branch}","tags_url":"https://api.github.com/repos/QAtechtools/CQqSD/tags","blobs_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/refs{/sha}","trees_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/trees{/sha}","statuses_url":"https://api.github.com/repos/QAtechtools/CQqSD/statuses/{sha}","languages_url":"https://api.github.com/repos/QAtechtools/CQqSD/languages","stargazers_url":"https://api.github.com/repos/QAtechtools/CQqSD/stargazers","contributors_url":"https://api.github.com/repos/QAtechtools/CQqSD/contributors","subscribers_url":"https://api.github.com/repos/QAtechtools/CQqSD/subscribers","subscription_url":"https://api.github.com/repos/QAtechtools/CQqSD/subscription","commits_url":"https://api.github.com/repos/QAtechtools/CQqSD/commits{/sha}","git_commits_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/commits{/sha}","comments_url":"https://api.github.com/repos/QAtechtools/CQqSD/comments{/number}","issue_comment_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues/comments{/number}","contents_url":"https://api.github.com/repos/QAtechtools/CQqSD/contents/{+path}","compare_url":"https://api.github.com/repos/QAtechtools/CQqSD/compare/{base}...{head}","merges_url":"https://api.github.com/repos/QAtechtools/CQqSD/merges","archive_url":"https://api.github.com/repos/QAtechtools/CQqSD/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/QAtechtools/CQqSD/downloads","issues_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues{/number}","pulls_url":"https://api.github.com/repos/QAtechtools/CQqSD/pulls{/number}","milestones_url":"https://api.github.com/repos/QAtechtools/CQqSD/milestones{/number}","notifications_url":"https://api.github.com/repos/QAtechtools/CQqSD/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/QAtechtools/CQqSD/labels{/name}","releases_url":"https://api.github.com/repos/QAtechtools/CQqSD/releases{/id}","deployments_url":"https://api.github.com/repos/QAtechtools/CQqSD/deployments","created_at":"2020-05-30T09:59:38Z","updated_at":"2020-05-30T09:59:38Z","pushed_at":"2020-05-30T09:59:39Z","git_url":"git://github.com/QAtechtools/CQqSD.git","ssh_url":"git@github.com:QAtechtools/CQqSD.git","clone_url":"https://github.com/QAtechtools/CQqSD.git","svn_url":"https://github.com/QAtechtools/CQqSD","homepage":"https://qatechtools.com","size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"delete_branch_on_merge":false,"network_count":0,"subscribers_count":1}
+
+15:29:39.713 [print] {
+  "stargazers_count": 0,
+  "pushed_at": "2020-05-30T09:59:39Z",
+  "subscription_url": "https://api.github.com/repos/QAtechtools/CQqSD/subscription",
+  "language": null,
+  "branches_url": "https://api.github.com/repos/QAtechtools/CQqSD/branches{/branch}",
+  "issue_comment_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues/comments{/number}",
+  "allow_rebase_merge": true,
+  "labels_url": "https://api.github.com/repos/QAtechtools/CQqSD/labels{/name}",
+  "subscribers_url": "https://api.github.com/repos/QAtechtools/CQqSD/subscribers",
+  "permissions": {
+    "pull": true,
+    "admin": true,
+    "push": true
+  },
+  "releases_url": "https://api.github.com/repos/QAtechtools/CQqSD/releases{/id}",
+  "svn_url": "https://github.com/QAtechtools/CQqSD",
+  "subscribers_count": 1,
+  "id": 268053147,
+  "forks": 0,
+  "archive_url": "https://api.github.com/repos/QAtechtools/CQqSD/{archive_format}{/ref}",
+  "allow_merge_commit": true,
+  "git_refs_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/refs{/sha}",
+  "forks_url": "https://api.github.com/repos/QAtechtools/CQqSD/forks",
+  "statuses_url": "https://api.github.com/repos/QAtechtools/CQqSD/statuses/{sha}",
+  "network_count": 0,
+  "ssh_url": "git@github.com:QAtechtools/CQqSD.git",
+  "license": null,
+  "full_name": "QAtechtools/CQqSD",
+  "size": 0,
+  "languages_url": "https://api.github.com/repos/QAtechtools/CQqSD/languages",
+  "html_url": "https://github.com/QAtechtools/CQqSD",
+  "collaborators_url": "https://api.github.com/repos/QAtechtools/CQqSD/collaborators{/collaborator}",
+  "clone_url": "https://github.com/QAtechtools/CQqSD.git",
+  "name": "CQqSD",
+  "pulls_url": "https://api.github.com/repos/QAtechtools/CQqSD/pulls{/number}",
+  "default_branch": "master",
+  "hooks_url": "https://api.github.com/repos/QAtechtools/CQqSD/hooks",
+  "trees_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/trees{/sha}",
+  "tags_url": "https://api.github.com/repos/QAtechtools/CQqSD/tags",
+  "private": false,
+  "contributors_url": "https://api.github.com/repos/QAtechtools/CQqSD/contributors",
+  "has_downloads": true,
+  "notifications_url": "https://api.github.com/repos/QAtechtools/CQqSD/notifications{?since,all,participating}",
+  "open_issues_count": 0,
+  "description": "This is your first repository",
+  "created_at": "2020-05-30T09:59:38Z",
+  "watchers": 0,
+  "keys_url": "https://api.github.com/repos/QAtechtools/CQqSD/keys{/key_id}",
+  "deployments_url": "https://api.github.com/repos/QAtechtools/CQqSD/deployments",
+  "has_projects": true,
+  "archived": false,
+  "has_wiki": true,
+  "updated_at": "2020-05-30T09:59:38Z",
+  "comments_url": "https://api.github.com/repos/QAtechtools/CQqSD/comments{/number}",
+  "stargazers_url": "https://api.github.com/repos/QAtechtools/CQqSD/stargazers",
+  "disabled": false,
+  "delete_branch_on_merge": false,
+  "git_url": "git://github.com/QAtechtools/CQqSD.git",
+  "has_pages": false,
+  "owner": {
+    "gists_url": "https://api.github.com/users/QAtechtools/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/QAtechtools/repos",
+    "following_url": "https://api.github.com/users/QAtechtools/following{/other_user}",
+    "starred_url": "https://api.github.com/users/QAtechtools/starred{/owner}{/repo}",
+    "login": "QAtechtools",
+    "followers_url": "https://api.github.com/users/QAtechtools/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/QAtechtools",
+    "subscriptions_url": "https://api.github.com/users/QAtechtools/subscriptions",
+    "received_events_url": "https://api.github.com/users/QAtechtools/received_events",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/65459490?v=4",
+    "events_url": "https://api.github.com/users/QAtechtools/events{/privacy}",
+    "html_url": "https://github.com/QAtechtools",
+    "site_admin": false,
+    "id": 65459490,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY1NDU5NDkw",
+    "organizations_url": "https://api.github.com/users/QAtechtools/orgs"
+  },
+  "allow_squash_merge": true,
+  "commits_url": "https://api.github.com/repos/QAtechtools/CQqSD/commits{/sha}",
+  "compare_url": "https://api.github.com/repos/QAtechtools/CQqSD/compare/{base}...{head}",
+  "git_commits_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/commits{/sha}",
+  "blobs_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/tags{/sha}",
+  "merges_url": "https://api.github.com/repos/QAtechtools/CQqSD/merges",
+  "downloads_url": "https://api.github.com/repos/QAtechtools/CQqSD/downloads",
+  "has_issues": true,
+  "url": "https://api.github.com/repos/QAtechtools/CQqSD",
+  "contents_url": "https://api.github.com/repos/QAtechtools/CQqSD/contents/{+path}",
+  "mirror_url": null,
+  "milestones_url": "https://api.github.com/repos/QAtechtools/CQqSD/milestones{/number}",
+  "teams_url": "https://api.github.com/repos/QAtechtools/CQqSD/teams",
+  "fork": false,
+  "issues_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues{/number}",
+  "events_url": "https://api.github.com/repos/QAtechtools/CQqSD/events",
+  "issue_events_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues/events{/number}",
+  "assignees_url": "https://api.github.com/repos/QAtechtools/CQqSD/assignees{/user}",
+  "open_issues": 0,
+  "watchers_count": 0,
+  "node_id": "MDEwOlJlcG9zaXRvcnkyNjgwNTMxNDc=",
+  "homepage": "https://qatechtools.com",
+  "forks_count": 0
+}
+
+15:29:39.727 [print] CQqSD
+15:29:39.737 request:
+2 > GET https://api.github.com/repos/QAtechtools/CQqSD
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: api.github.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+15:29:40.151 response time in milliseconds: 408.46
+2 < 200
+2 < Accept-Ranges: bytes
+2 < X-GitHub-Request-Id: CE36:3DB9:1FB412:287B2F:5ED22E8B
+2 < X-Ratelimit-Limit: 60
+2 < X-Ratelimit-Remaining: 58
+2 < X-Ratelimit-Reset: 1590836194
+2 < access-control-allow-origin: *
+2 < access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+2 < cache-control: public, max-age=60, s-maxage=60
+2 < content-security-policy: default-src 'none'
+2 < content-type: application/json; charset=utf-8
+2 < date: Sat, 30 May 2020 09:59:40 GMT
+2 < etag: W/"c57b59d116fca5a861637cd49a53fb74"
+2 < last-modified: Sat, 30 May 2020 09:59:38 GMT
+2 < referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2 < server: GitHub.com
+2 < status: 200 OK
+2 < strict-transport-security: max-age=31536000; includeSubdomains; preload
+2 < vary: Accept, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding
+2 < x-content-type-options: nosniff
+2 < x-frame-options: deny
+2 < x-github-media-type: github.v3; format=json
+2 < x-xss-protection: 1; mode=block
+{"id":268053147,"node_id":"MDEwOlJlcG9zaXRvcnkyNjgwNTMxNDc=","name":"CQqSD","full_name":"QAtechtools/CQqSD","private":false,"owner":{"login":"QAtechtools","id":65459490,"node_id":"MDQ6VXNlcjY1NDU5NDkw","avatar_url":"https://avatars3.githubusercontent.com/u/65459490?v=4","gravatar_id":"","url":"https://api.github.com/users/QAtechtools","html_url":"https://github.com/QAtechtools","followers_url":"https://api.github.com/users/QAtechtools/followers","following_url":"https://api.github.com/users/QAtechtools/following{/other_user}","gists_url":"https://api.github.com/users/QAtechtools/gists{/gist_id}","starred_url":"https://api.github.com/users/QAtechtools/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/QAtechtools/subscriptions","organizations_url":"https://api.github.com/users/QAtechtools/orgs","repos_url":"https://api.github.com/users/QAtechtools/repos","events_url":"https://api.github.com/users/QAtechtools/events{/privacy}","received_events_url":"https://api.github.com/users/QAtechtools/received_events","type":"User","site_admin":false},"html_url":"https://github.com/QAtechtools/CQqSD","description":"This is your first repository","fork":false,"url":"https://api.github.com/repos/QAtechtools/CQqSD","forks_url":"https://api.github.com/repos/QAtechtools/CQqSD/forks","keys_url":"https://api.github.com/repos/QAtechtools/CQqSD/keys{/key_id}","collaborators_url":"https://api.github.com/repos/QAtechtools/CQqSD/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/QAtechtools/CQqSD/teams","hooks_url":"https://api.github.com/repos/QAtechtools/CQqSD/hooks","issue_events_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues/events{/number}","events_url":"https://api.github.com/repos/QAtechtools/CQqSD/events","assignees_url":"https://api.github.com/repos/QAtechtools/CQqSD/assignees{/user}","branches_url":"https://api.github.com/repos/QAtechtools/CQqSD/branches{/branch}","tags_url":"https://api.github.com/repos/QAtechtools/CQqSD/tags","blobs_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/refs{/sha}","trees_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/trees{/sha}","statuses_url":"https://api.github.com/repos/QAtechtools/CQqSD/statuses/{sha}","languages_url":"https://api.github.com/repos/QAtechtools/CQqSD/languages","stargazers_url":"https://api.github.com/repos/QAtechtools/CQqSD/stargazers","contributors_url":"https://api.github.com/repos/QAtechtools/CQqSD/contributors","subscribers_url":"https://api.github.com/repos/QAtechtools/CQqSD/subscribers","subscription_url":"https://api.github.com/repos/QAtechtools/CQqSD/subscription","commits_url":"https://api.github.com/repos/QAtechtools/CQqSD/commits{/sha}","git_commits_url":"https://api.github.com/repos/QAtechtools/CQqSD/git/commits{/sha}","comments_url":"https://api.github.com/repos/QAtechtools/CQqSD/comments{/number}","issue_comment_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues/comments{/number}","contents_url":"https://api.github.com/repos/QAtechtools/CQqSD/contents/{+path}","compare_url":"https://api.github.com/repos/QAtechtools/CQqSD/compare/{base}...{head}","merges_url":"https://api.github.com/repos/QAtechtools/CQqSD/merges","archive_url":"https://api.github.com/repos/QAtechtools/CQqSD/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/QAtechtools/CQqSD/downloads","issues_url":"https://api.github.com/repos/QAtechtools/CQqSD/issues{/number}","pulls_url":"https://api.github.com/repos/QAtechtools/CQqSD/pulls{/number}","milestones_url":"https://api.github.com/repos/QAtechtools/CQqSD/milestones{/number}","notifications_url":"https://api.github.com/repos/QAtechtools/CQqSD/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/QAtechtools/CQqSD/labels{/name}","releases_url":"https://api.github.com/repos/QAtechtools/CQqSD/releases{/id}","deployments_url":"https://api.github.com/repos/QAtechtools/CQqSD/deployments","created_at":"2020-05-30T09:59:38Z","updated_at":"2020-05-30T09:59:38Z","pushed_at":"2020-05-30T09:59:39Z","git_url":"git://github.com/QAtechtools/CQqSD.git","ssh_url":"git@github.com:QAtechtools/CQqSD.git","clone_url":"https://github.com/QAtechtools/CQqSD.git","svn_url":"https://github.com/QAtechtools/CQqSD","homepage":"https://qatechtools.com","size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","temp_clone_token":null,"network_count":0,"subscribers_count":1}
+
+15:29:40.153 [print] {
+  "stargazers_count": 0,
+  "pushed_at": "2020-05-30T09:59:39Z",
+  "subscription_url": "https://api.github.com/repos/QAtechtools/CQqSD/subscription",
+  "language": null,
+  "branches_url": "https://api.github.com/repos/QAtechtools/CQqSD/branches{/branch}",
+  "issue_comment_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues/comments{/number}",
+  "labels_url": "https://api.github.com/repos/QAtechtools/CQqSD/labels{/name}",
+  "subscribers_url": "https://api.github.com/repos/QAtechtools/CQqSD/subscribers",
+  "temp_clone_token": null,
+  "releases_url": "https://api.github.com/repos/QAtechtools/CQqSD/releases{/id}",
+  "svn_url": "https://github.com/QAtechtools/CQqSD",
+  "subscribers_count": 1,
+  "id": 268053147,
+  "forks": 0,
+  "archive_url": "https://api.github.com/repos/QAtechtools/CQqSD/{archive_format}{/ref}",
+  "git_refs_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/refs{/sha}",
+  "forks_url": "https://api.github.com/repos/QAtechtools/CQqSD/forks",
+  "statuses_url": "https://api.github.com/repos/QAtechtools/CQqSD/statuses/{sha}",
+  "network_count": 0,
+  "ssh_url": "git@github.com:QAtechtools/CQqSD.git",
+  "license": null,
+  "full_name": "QAtechtools/CQqSD",
+  "size": 0,
+  "languages_url": "https://api.github.com/repos/QAtechtools/CQqSD/languages",
+  "html_url": "https://github.com/QAtechtools/CQqSD",
+  "collaborators_url": "https://api.github.com/repos/QAtechtools/CQqSD/collaborators{/collaborator}",
+  "clone_url": "https://github.com/QAtechtools/CQqSD.git",
+  "name": "CQqSD",
+  "pulls_url": "https://api.github.com/repos/QAtechtools/CQqSD/pulls{/number}",
+  "default_branch": "master",
+  "hooks_url": "https://api.github.com/repos/QAtechtools/CQqSD/hooks",
+  "trees_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/trees{/sha}",
+  "tags_url": "https://api.github.com/repos/QAtechtools/CQqSD/tags",
+  "private": false,
+  "contributors_url": "https://api.github.com/repos/QAtechtools/CQqSD/contributors",
+  "has_downloads": true,
+  "notifications_url": "https://api.github.com/repos/QAtechtools/CQqSD/notifications{?since,all,participating}",
+  "open_issues_count": 0,
+  "description": "This is your first repository",
+  "created_at": "2020-05-30T09:59:38Z",
+  "watchers": 0,
+  "keys_url": "https://api.github.com/repos/QAtechtools/CQqSD/keys{/key_id}",
+  "deployments_url": "https://api.github.com/repos/QAtechtools/CQqSD/deployments",
+  "has_projects": true,
+  "archived": false,
+  "has_wiki": true,
+  "updated_at": "2020-05-30T09:59:38Z",
+  "comments_url": "https://api.github.com/repos/QAtechtools/CQqSD/comments{/number}",
+  "stargazers_url": "https://api.github.com/repos/QAtechtools/CQqSD/stargazers",
+  "disabled": false,
+  "git_url": "git://github.com/QAtechtools/CQqSD.git",
+  "has_pages": false,
+  "owner": {
+    "gists_url": "https://api.github.com/users/QAtechtools/gists{/gist_id}",
+    "repos_url": "https://api.github.com/users/QAtechtools/repos",
+    "following_url": "https://api.github.com/users/QAtechtools/following{/other_user}",
+    "starred_url": "https://api.github.com/users/QAtechtools/starred{/owner}{/repo}",
+    "login": "QAtechtools",
+    "followers_url": "https://api.github.com/users/QAtechtools/followers",
+    "type": "User",
+    "url": "https://api.github.com/users/QAtechtools",
+    "subscriptions_url": "https://api.github.com/users/QAtechtools/subscriptions",
+    "received_events_url": "https://api.github.com/users/QAtechtools/received_events",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/65459490?v=4",
+    "events_url": "https://api.github.com/users/QAtechtools/events{/privacy}",
+    "html_url": "https://github.com/QAtechtools",
+    "site_admin": false,
+    "id": 65459490,
+    "gravatar_id": "",
+    "node_id": "MDQ6VXNlcjY1NDU5NDkw",
+    "organizations_url": "https://api.github.com/users/QAtechtools/orgs"
+  },
+  "commits_url": "https://api.github.com/repos/QAtechtools/CQqSD/commits{/sha}",
+  "compare_url": "https://api.github.com/repos/QAtechtools/CQqSD/compare/{base}...{head}",
+  "git_commits_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/commits{/sha}",
+  "blobs_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/QAtechtools/CQqSD/git/tags{/sha}",
+  "merges_url": "https://api.github.com/repos/QAtechtools/CQqSD/merges",
+  "downloads_url": "https://api.github.com/repos/QAtechtools/CQqSD/downloads",
+  "has_issues": true,
+  "url": "https://api.github.com/repos/QAtechtools/CQqSD",
+  "contents_url": "https://api.github.com/repos/QAtechtools/CQqSD/contents/{+path}",
+  "mirror_url": null,
+  "milestones_url": "https://api.github.com/repos/QAtechtools/CQqSD/milestones{/number}",
+  "teams_url": "https://api.github.com/repos/QAtechtools/CQqSD/teams",
+  "fork": false,
+  "issues_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues{/number}",
+  "events_url": "https://api.github.com/repos/QAtechtools/CQqSD/events",
+  "issue_events_url": "https://api.github.com/repos/QAtechtools/CQqSD/issues/events{/number}",
+  "assignees_url": "https://api.github.com/repos/QAtechtools/CQqSD/assignees{/user}",
+  "open_issues": 0,
+  "watchers_count": 0,
+  "node_id": "MDEwOlJlcG9zaXRvcnkyNjgwNTMxNDc=",
+  "homepage": "https://qatechtools.com",
+  "forks_count": 0
+}
+
+.com",
+  "forks_count": 0
+}
+

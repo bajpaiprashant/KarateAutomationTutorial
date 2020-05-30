@@ -1,0 +1,9 @@
+mutation($employer:AWSEmployerInput ) {
+  createAWSEmployer(employer: $employer) {
+    id
+    version
+    createdTs
+    leadContact
+    
+  }
+}

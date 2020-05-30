@@ -1,0 +1,14 @@
+{
+  "employer": {
+    "corpName": "ATI-AWS Test QA",
+    "displayName": "ATI-AWS PB",
+    "contractStartDate": "1222-03-26T00:00:00-00:00",
+    "contractEndDate": "1000-12-31T00:00:00-00:00",
+    "contractRenewalDate": "2030-12-31T00:00:00-00:00",
+    "leadContact": "John B",
+    "leadContactTitle": "HR",
+    "leadContactEmail": "john.b@ati.com",
+    "leadContactPhone": "1987683433"
+   
+  }
+}

@@ -1,0 +1,15 @@
+{
+getAllAWSEmployerLocation(count:1){
+  id
+  locationName
+  locationAddress
+  employerLocationGoalValues{
+    id
+    goalValue
+    employerGoalType {
+      id
+      goalType
+    }
+  }
+}
+}
